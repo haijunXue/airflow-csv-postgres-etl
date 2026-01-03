@@ -1,0 +1,12 @@
+airflow_postgres:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: airflow_user
+      password: airflow123
+      port: 5432
+      dbname: airflow_dw
+      schema: analytics
+      threads: 2

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+venv/
+airflow.db
+logs/
+data/sales_transformed.csv
